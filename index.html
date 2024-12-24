@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Importance des Alt Texts</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        h1 {
+            margin-top: 20px;
+            font-size: 2.5em;
+            color: #222;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            margin: 20px 0 10px;
+            color: #444;
+        }
+
+        p {
+            max-width: 600px;
+            margin: 10px auto;
+            font-size: 1.2em;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+        }
+
+        .container {
+            padding: 20px;
+            width: 100%;
+            max-width: 800px;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+
+            p {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Pourquoi les Alt Texts sont importants</h1>
+
+    <h2>Accessibilité</h2>
+    <p>Les alt texts permettent aux personnes utilisant des lecteurs d'écran de comprendre le contenu des images sur votre site. Ils rendent vos pages accessibles à un public plus large.</p>
+
+    <img src="exemple-image-accessibilite.jpg" alt="Un lecteur d'écran décrivant une image à un utilisateur malvoyant">
+
+    <h2>Bonnes pratiques</h2>
+    <p>Un bon alt text est descriptif mais concis. Par exemple :</p>
+    <ul>
+        <li>✔️ <em>"Chat noir assis sur un canapé beige"</em></li>
+        <li>❌ <em>"Image de chat"</em></li>
+    </ul>
+
+    <img src="exemple-bonnes-pratiques.jpg" alt="Comparaison entre un bon et un mauvais alt text">
+
+</div>
+</body>
+</html>
